@@ -1,0 +1,32 @@
+data/courses.json
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "SQL Eğitimi",
+      "description": "Sıfırdan ileri seviye SQL eğitimi",
+      "price": 199,
+      "coverImage": "sql.jpg",
+      "videos": [
+        {
+          "id": 1,
+          "title": "Giriş",
+          "description": "SQL nedir?",
+          "vimeoId": "123456789",
+          "duration": 300,
+          "order": 1,
+          "isPreview": true
+        },
+        {
+          "id": 2,
+          "title": "SELECT Kullanımı",
+          "description": "Temel sorgular",
+          "vimeoId": "987654321",
+          "duration": 600,
+          "order": 2,
+          "isPreview": false
+        }
+      ]
+    }
+  ]
+}
